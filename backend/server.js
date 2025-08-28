@@ -73,8 +73,4 @@ httpServer.listen(process.env.PORT, () => {
     `Server started on port ${process.env.PORT} in ${process.env.NODE_ENV} mode`
   );
 });
-//use DigitalOcean's PORT or fall back to 3000 for local
-const PORT = proces.env.Port || 3000;
-httpServer.listen(PORT, () => {
-  console.log(`server running on port ${PORT}`);
-});
+
